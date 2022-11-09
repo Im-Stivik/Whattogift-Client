@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, Button } from "react-native";
-import Styles from '../../../src/utilis/AppStyle';
+import Styles from '../../utilis/AppStyle'
 
-const Dashboard = (props) => {
+const Singup = (props) => {
     return (
         <View style={Styles.conrainer}>
-        <Text>Dashboard</Text>
+            <Text>Signup</Text>
         </View>
     );
-    }
+}
 
-export default Dashboard;
+export default Singup;
